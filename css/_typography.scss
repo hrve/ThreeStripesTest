@@ -1,0 +1,29 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #1c1c1c;
+    letter-spacing: -1.2px;
+
+    @media only screen and (max-width: 980px) and (min-width: 720px) {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    @media only screen and (max-width: 460px) {
+        font-size: 36px;
+        line-height: 46px;
+    }
+}
+
+p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #585757;
+    letter-spacing: -0.3px;
+}
